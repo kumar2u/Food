@@ -163,7 +163,9 @@ form:focus-within{
 /* Clients Section  */
 
 #client-section{ 
-    position: relative;
+/*     position: relative; */
+	 position: static;
+
 }
 
 #client-section::before{
@@ -193,7 +195,8 @@ form:focus-within{
 /* contact section */
 
 #contact{
-    position: relative;
+/*     position: relative; */
+	 position: static;
 }
 #contact::before{
     position: absolute;
